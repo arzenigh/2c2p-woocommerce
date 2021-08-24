@@ -388,7 +388,7 @@ function fun2c2p_init()
                 'amount'                => $order->get_total(),
                 'customer_email'        => sanitize_email($cust_email),                
                 'stored_card_unique_id' => $wc_2c2p_stored_card_token_id != 0 ? $wc_2c2p_stored_card_token_id : "",
-                'default_lang'          => $default_lang
+                // 'default_lang'          => $default_lang
                 );
             
             $objWC_2C2P_Validation_Helper = new WC_2C2P_Validation_Helper();
