@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woo_2c2p\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-24 07:27+0000\n"
+"PO-Revision-Date: 2021-08-24 08:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: ไทย\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: woo_2c2p"
+
+#: Includes/wc-2c2p-setting.php:66
+msgid "123 Payment Expiry (hours)"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:68
+msgid "123 Payment Expiry in hours like (8-720)"
+msgstr ""
+
+#. Author of the plugin
+#: 2c2p.php:278
+msgid "2C2P"
+msgstr ""
+
+#: 2c2p.php:279
+msgid ""
+"2C2P provides a wide range of payment. you just save your account detail in "
+"it and enjoy shopping just in one click on 2C2P"
+msgstr ""
+
+#. Name of the plugin
+msgid "2C2P Redirect API for WooCommerce"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:45
+msgid "2c2p Tranasction Mode."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Accept Payment (Credit/Debit Cards, Alipay, Alternative/Cash Payments) on "
+"your WooCommerce webstore."
+msgstr ""
+"ชำระเงินหลายช่องทาง (บัตรเครดิต/เดบิต, Alipay, เงินสด) บนร้านค้าออนไลน์"
+
+#: 2c2p.php:403 2c2p.php:420
+msgid "Cancel order &amp; restore cart"
+msgstr "ยกเลิกและกลับไปหน้าตะกร้าสินค้า"
+
+#: 2c2p.php:280
+msgid "Confirm your Mode: Is it LIVE or TEST."
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:14
+msgid "Credit / Debit Card and Cash Payment (2C2P)"
+msgstr "ชำระด้วยบัตรเครดิต/เดบิตหรือเงินสด (2C2P)"
+
+#: Includes/wc-2c2p-setting.php:19
+msgid "Description"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:7
+msgid "Enable 2c2p"
+msgstr "เปิดใช้งาน 2C2P"
+
+#: Includes/wc-2c2p-setting.php:5 Includes/wc-2c2p-setting.php:61
+msgid "Enable/Disable"
+msgstr "เปิด/ปิดการใช้งาน"
+
+#: Includes/wc-2c2p-setting.php:89
+msgid "Fixed Description"
+msgstr ""
+
+#: 2c2p.php:223
+msgid "Fixed description field value should be less than 250 charactors."
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:91
+msgid "Fixed Description."
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:92
+msgid "Fixed product description which display during payment."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.2c2p.com/"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:31
+msgid "Merchant ID"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:43
+msgid "Mode"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:21
+msgid "Pay Securely by Credit / Debit card or Internet banking through 2C2P."
+msgstr "ชำระอย่างปลอดภัยด้วยบัตรเครดิต/เดบิตหรือออนไลน์แบงค์กิ้งผ่าน 2C2P"
+
+#: 2c2p.php:419
+msgid "Pay via 2C2P"
+msgstr "ชำระผ่าน 2C2P"
+
+#: 2c2p.php:206
+msgid "Please enter 123 payment expiry in between 8 - 720 hours only"
+msgstr ""
+
+#: 2c2p.php:202
+msgid "Please enter 123 payment expiry in numeric like (8 - 720)"
+msgstr ""
+
+#: 2c2p.php:198
+msgid "Please enter 123 payment expiry like (8 - 720)"
+msgstr ""
+
+#: 2c2p.php:215
+msgid "Please Enter Merchant Id"
+msgstr ""
+
+#: 2c2p.php:231
+msgid "Please Enter Secret Key"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:37
+msgid "Secret Key"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:72
+msgid "Select Language"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:74
+msgid "Select Language."
+msgstr ""
+
+#: 2c2p.php:657
+msgid "Settings"
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:63
+msgid "Stored Card Payment"
+msgstr "จดจำบัตร"
+
+#: 2c2p.php:408
+msgid "Thank you for your order."
+msgstr "ขอบคุณสำหรับคำสั่งซื้อ"
+
+#: 2c2p.php:408
+msgid "The payment page will open if you click on button \"Pay via 2C2P\"."
+msgstr "เปิดหน้าชำระเงินโดยการคลิกปุ่ม \"ชำระผ่าน 2C2P\""
+
+#: Includes/wc-2c2p-setting.php:22
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:15
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: Includes/wc-2c2p-setting.php:12
+msgid "Title"
+msgstr ""
