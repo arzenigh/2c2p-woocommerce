@@ -385,7 +385,7 @@ function fun2c2p_init()
                 'payment_description'   => $product_name,
                 'order_id'              => $order_id,
                 'invoice_no'            => $order_id,
-                'amount'                => $order->get_total(),
+                'amount'                => $order->order_total,
                 'customer_email'        => sanitize_email($cust_email),                
                 'stored_card_unique_id' => $wc_2c2p_stored_card_token_id != 0 ? $wc_2c2p_stored_card_token_id : "",
                 'default_lang'          => $default_lang
