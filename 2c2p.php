@@ -428,14 +428,29 @@ function fun2c2p_init()
         {
             global $woocommerce;
             $order = new WC_Order($order_id);
-            
-            if (version_compare(WOOCOMMERCE_VERSION, '2.1.0', '>=')) { // For WC 2.1.0
-                $checkout_payment_url = $order->get_checkout_payment_url(true);
+
+            if ( version_compare( WOOCOMMERCE_VERSION, '2.1.0', '>=' ) ) {
+                // For WC 2.1.0
+                return array(
+                    'result'    => 'success',
+                    'redirect'  => add_query_arg(
+                        'key', $order->order_key,
+                        $order->get_checkout_payment_url(true)
+                    )
+                );
             } else {
-                $checkout_payment_url = get_permalink(get_option('woocommerce_pay_page_id'));
+                return array(
+                    'result'    => 'success',
+                    'redirect'  => add_query_arg(
+                        'order', $order->id,
+                        add_query_arg( 'key', $order->order_key,
+                            get_permalink(
+                                get_option('woocommerce_pay_page_id')
+                            )
+                        )
+                    )
+                );
             }
-            
-            return array('result' => 'success','redirect' => add_query_arg('order', $order->id, add_query_arg('key', $order->order_key, $checkout_payment_url)));
         }
         
         /* handle the PG response */
