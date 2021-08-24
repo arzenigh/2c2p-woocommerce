@@ -79,7 +79,7 @@ class wc_2c2p_construct_request_helper extends WC_Payment_Gateway
         $merchant_id    = isset($this->pg_2c2p_setting_values['key_id']) ? sanitize_text_field($this->pg_2c2p_setting_values['key_id']) : "";
         $secret_key     = isset($this->pg_2c2p_setting_values['key_secret']) ? sanitize_text_field($this->pg_2c2p_setting_values['key_secret']) : "";
 
-        $default_lang  = WC_2C2P_Constant::WC_2C2P_VERSION;
+        $default_lang  = WC_2C2P_Constant::WC_2C2P_DEFAULT_LANG;
         $selected_lang = sanitize_text_field($this->pg_2c2p_setting_values['wc_2c2p_default_lang']);
         $default_lang  = !empty($selected_lang) ? $selected_lang : $default_lang;
 
