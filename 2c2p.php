@@ -5,6 +5,8 @@ Description: Accept Payment (Credit/Debit Cards, Alipay, Alternative/Cash Paymen
 Version: 7.0.3
 Author: 2C2P 
 Author URI: http://www.2c2p.com/
+Text Domain: woo_2c2p
+Domain Path: /languages
 */
 
 add_action('plugins_loaded', 'fun2c2p_init', 0);
@@ -662,3 +664,9 @@ function fun2c2p_add_action_plugin($actions, $plugin_file)
     
     return $actions;
 } //END-settings_add_action_link
+
+add_action( 'init', 'fun2c2p_load_textdomain' );
+function fun2c2p_load_textdomain() {
+  load_plugin_textdomain( 'woo_2c2p', false,
+    dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}
