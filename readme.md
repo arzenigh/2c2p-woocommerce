@@ -1,3 +1,8 @@
+## Branch Note
+- Main: Code from wordpress plugin directory.
+- Master: Code from github (https://github.com/2C2P/2c2p-woocommerce)
+
+
 === 2C2P Redirect API for WooCommerce ===
 Contributors: 2C2P
 Author URI: https://www.2C2P.com
